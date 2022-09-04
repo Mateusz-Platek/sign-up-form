@@ -38,6 +38,7 @@ img {
 }
 
 form {
+    appearance: none;
     margin-top: 60px;
 }
 
@@ -70,6 +71,15 @@ input {
     height: 25px;
     border: 1px solid rgb(180, 180, 180);
     border-radius: 5px;
+    box-shadow: 4px 4px 10px;
+}
+
+input:focus {
+    border: 2px solid red;
+}
+
+input:invalid {
+    border: 2px solid red;
 }
 
 button {
