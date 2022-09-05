@@ -13,7 +13,7 @@ body {
 .left {
     width: 40%;
     height: 100vh;
-    background-image: url(./erik-mclean-U06nswCc4l4-unsplash.jpg);
+    background-image: url(./lexus-g8377f2bfc_1920.jpg);
     background-color: red;
     background-position: center;
     background-size: 800px;
@@ -21,13 +21,21 @@ body {
 
 .black {
     width: 100%;
-    background-color: rgb(0, 0, 0, 0.6);
+    height: 200px;
+    background-color: #09342699;
     color: white;
-    text-align: center;
     margin-top: 250px;
     padding: 20px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+img {
+    height: 100px;
 }
 
 
@@ -40,6 +48,7 @@ body {
 
 .right > .big {
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .big {
@@ -96,10 +105,15 @@ button {
     color: white;
     width: 200px;
     height: 50px;
-    border: 1px solid #093426;
+    border: 0;
     border-radius: 15px;
     margin: 30px 0;
     font-size: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: #093426;
 }
 
 .bottom {
